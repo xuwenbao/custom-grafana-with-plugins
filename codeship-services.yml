@@ -1,0 +1,7 @@
+grafana:
+  build:
+    image: grafana:5.4.3-with-plugins
+    dockerfile: Dockerfile
+    args:
+      GRAFANA_VERSION=5.4.3
+      GF_INSTALL_PLUGINS=grafana-piechart-panel,raintank-worldping-app,alexanderzobnin-zabbix-app,grafana-worldmap-panel,ryantxu-ajax-panel,digiapulssi-breadcrumb-,digrich-bubblechart-panel,neocat-cal-heatmap-panel,petrslavotinek-carpetplot-panel,briangann-gauge-panel,briangann-datatable-panel,jdbranham-diagram-panel,natel-discrete-panel,citilogics-geoloop-panel,savantly-heatmap-panel,mtanda-heatmap-epoch-panel,michaeldmoore-multistat-panel,bessler-pictureit-panel,natel-plotly-panel,grafana-polystat-panel,snuids-radar-panel,scadavis-synoptic-panel,blackmirror1-statusbygroup-panel,btplc-status-dot-panel,btplc-status-dot-panel,flant-statusmap-panel,snuids-trafficlights-panel,btplc-trend-box-panel,fatcloud-windrose-panel

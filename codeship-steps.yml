@@ -1,5 +1,5 @@
 - service: grafana
   type: push
   image_name: registry.cn-hangzhou.aliyuncs.com/xuwenbao/grafana:5.4.3-with-plugins
-  registry: registry.cn-hangzhou.aliyuncs.com
+  registry: https://registry.cn-hangzhou.aliyuncs.com
   encrypted_dockercfg_path: dockercfg.encrypted

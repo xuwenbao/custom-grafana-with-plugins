@@ -1,6 +1,6 @@
 grafana:
   build:
-    image: grafana:5.4.3-with-plugins
+    image: registry.cn-hangzhou.aliyuncs.com/xuwenbao/grafana:5.4.3-with-plugins
     dockerfile: Dockerfile
     args:
       GRAFANA_VERSION: 5.4.3

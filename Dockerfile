@@ -1,10 +1,10 @@
 ARG GRAFANA_VERSION="latest"
+ARG GF_INSTALL_PLUGINS=""
 
 FROM grafana/grafana:${GRAFANA_VERSION}
 
 USER grafana
 
-ARG GF_INSTALL_PLUGINS=""
 
 RUN if [ ! -z "${GF_INSTALL_PLUGINS}" ]; then \
     OLDIFS=$IFS; \
